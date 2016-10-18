@@ -1,2 +1,2 @@
 include requirements.txt
-recursive-include kotti_google_analytics *
+recursive-include kotti_contenttypes *
