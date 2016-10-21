@@ -27,8 +27,5 @@ class Folder(Content):
         name=u'Folder',
         title=_(u'Folder'),
         add_view=u'add_folder',
-        addable_to=[u'Document', 'Folder'],
-        selectable_default_views=[
-            ("alternative-view", _(u"Alternative view")),
-        ],
+        addable_to=[u'Document', 'Folder']
     )

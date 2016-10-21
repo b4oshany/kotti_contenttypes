@@ -1,6 +1,11 @@
 History
 =======
 
+0.1.4
+-------
+
+- Fixed error caused by alternative-view for folder content type.
+
 0.1.3
 -------
 
