@@ -1,0 +1,22 @@
+{
+  "name": "kotti_contenttypes",
+  "homepage": "https://github.com/b4oshany/kotti_contenttypes",
+  "authors": [
+    "Oshane Bailey <b4.oshany@gmail.com>"
+  ],
+  "description": "Kotti contenttypes",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "kotti_contenttypes/static/ext",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "list.pagination.js": "^0.1.1"
+  }
+}

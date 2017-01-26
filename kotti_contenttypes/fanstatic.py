@@ -14,6 +14,17 @@ from fanstatic import Resource
 
 library = Library("kotti_contenttypes", "static")
 
+
+pagination_js = Resource(
+    library,
+    "ext/list.pagination.js/dist/list.pagination.min.js"
+)
+list_js = Resource(library, "list.min.js", depends=[pagination_js])
+folder_js = Group([
+    Resource(library, "folder.js", depends=[list_js]),
+    Resource(library, "folder.css")
+])
+
 css = Resource(
     library,
     "styles.css",

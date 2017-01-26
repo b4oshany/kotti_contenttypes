@@ -8,9 +8,8 @@ Created on 2016-10-18
 from pyramid.view import view_config
 from pyramid.view import view_defaults
 
-from kotti_contenttypes import _
+from kotti_contenttypes import _, fanstatic
 from kotti_contenttypes.resources import Folder
-from kotti_contenttypes.fanstatic import css_and_js
 from kotti_contenttypes.views import BaseView
 
 
@@ -26,6 +25,6 @@ class FolderViews(BaseView):
         :result: Dictionary needed to render the template.
         :rtype: dict
         """
-
+        fanstatic.folder_js.need()
         return {
         }

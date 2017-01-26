@@ -30,6 +30,7 @@ def kotti_configure(settings):
     settings['kotti.available_types'] += (
         ' kotti_contenttypes.resources.Folder'
     )
+
     settings['kotti.fanstatic.view_needed'] += ' kotti_contenttypes.fanstatic.css_and_js'
     File.type_info.addable_to.append('Folder')
     PDF.type_info.addable_to.append('Folder')

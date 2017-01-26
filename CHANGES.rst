@@ -1,6 +1,11 @@
 History
 =======
 
+0.1.5
+-------
+
+- Improved the folder view.
+
 0.1.4
 -------
 
