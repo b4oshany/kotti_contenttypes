@@ -17,7 +17,7 @@ from kotti_pdf.resources import PDF
 from kotti_contenttypes import _
 
 
-class Folder(Content):
+class Folder(Document):
     """ A custom content type. """
 
     implements(IDefaultWorkflow)
