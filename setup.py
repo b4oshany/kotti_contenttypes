@@ -52,9 +52,5 @@ setup(
             'kotti_contenttypes = kotti_contenttypes.fanstatic:library',
         ],
     },
-    package_data={"kotti_contenttypes": ["templates/*", "static/*",
-                                          "locale/*", "views/*",
-                                          "alembic/*.*",
-                                          "alembic/versions/*"]},
     extras_require={},
 )
