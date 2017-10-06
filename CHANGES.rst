@@ -1,5 +1,13 @@
 History
-=======
+==========
+
+0.1.11
+--------
+- Fixed the ext static folder.
+
+0.1.5 - 0.1.10
+----------------
+- Added kotti_pdf
 
 0.1.5
 -------
@@ -28,7 +36,7 @@ History
 
 - Added folder content type.
 
-0.1.0 - unreleased
-----------------
+0.1.0 
+---------------------
 
 - Create package with ``pcreate -s kotti kotti_contenttypes``.

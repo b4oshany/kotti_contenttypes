@@ -1,5 +1,5 @@
 kotti_contenttypes
-******************
+*********************
 
 This is an extension to Kotti that allows to add foo to your site.
 
@@ -27,7 +27,7 @@ Development happens at https://github.com/b4oshany/kotti_contenttypes
 .. _Find out more about Kotti: http://pypi.python.org/pypi/Kotti
 
 Setup
-=====
+========
 
 To enable the extension in your Kotti site, activate the configurator::
 
@@ -36,7 +36,7 @@ To enable the extension in your Kotti site, activate the configurator::
         kotti_pdf.kotti_configure
 
 Database upgrade
-================
+===================
 
 If you are upgrading from a previous version you might have to migrate your
 database.  The migration is performed with `alembic`_ and Kotti's console script
@@ -48,7 +48,7 @@ For integration of alembic in your environment please refer to the
 please create a new issue in the `tracker`_.
 
 Development
-===========
+==============
 
 |build_status_master|_
 

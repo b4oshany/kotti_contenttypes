@@ -13,7 +13,7 @@ try:
 except IOError:
     CHANGES = ''
 
-version = '0.1.10'
+version = '0.1.12'
 
 install_requires = [
     'Kotti>=1.0.0',
@@ -52,5 +52,9 @@ setup(
             'kotti_contenttypes = kotti_contenttypes.fanstatic:library',
         ],
     },
+    package_data={"kotti_contenttypes": ["templates/*", "static/*",
+                                          "locale/*", "views/*",
+                                          "alembic/*.*",
+                                          "alembic/versions/*"]},
     extras_require={},
 )
