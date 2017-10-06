@@ -13,7 +13,7 @@ try:
 except IOError:
     CHANGES = ''
 
-version = '0.1.12'
+version = '0.1.14'
 
 install_requires = [
     'Kotti>=1.0.0',
@@ -36,8 +36,8 @@ setup(
         "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
         "License :: Repoze Public License",
     ],
-    author='Kotti developers',
-    author_email='kotti@googlegroups.com',
+    author='Oshane Bailey',
+    author_email='b4.oshany@gmail.com',
     url='https://github.com/b4oshany/kotti_contenttypes',
     keywords='kotti web cms wcms pylons pyramid sqlalchemy bootstrap',
     license="BSD-derived (http://www.repoze.org/LICENSE.txt)",
@@ -53,6 +53,8 @@ setup(
         ],
     },
     package_data={"kotti_contenttypes": ["templates/*", "static/*",
+                                          "static/ext/*",
+                                          "static/ext/list.pagination.js/*",
                                           "locale/*", "views/*",
                                           "alembic/*.*",
                                           "alembic/versions/*"]},
